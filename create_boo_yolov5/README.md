@@ -18,11 +18,12 @@ Before operating this code, you should execute `catkin_make` or `catkin build`.
 https://drive.google.com/drive/folders/1cUSi4-5djDkkXrMH0t5H_NhwRFuho1gr?usp=sharing
 
 ## Launch
+`bash reset-spco-dataset-output.bash`
 `python main.py`
 
 ## Files
  - `README.md`: Read me file (This file)
- - 
+
  - `main.py`: main program.
 
  - `__init__.py`: Code for initial setting (PATH and parameters)

@@ -14,10 +14,13 @@ import numpy as np
 import rospy
 import actionlib
 # from sensor_msgs.msg import CompressedImage
+# from yolo_ros_msgs.msg import BoundingBoxes, BoundingBox
 import yolo_ros_msgs.msg as yolo_ros_msgs
 
+# Self Modules
+from __init__ import *
 
-# from yolo_ros_msgs.msg import BoundingBoxes, BoundingBox
+
 
 
 class ObjectFeatureServer():
