@@ -1,0 +1,14 @@
+# Check if objects in image
+
+# Goal definition
+int16 id
+sensor_msgs/CompressedImage image
+
+---
+# Result definition
+int16 id
+BoundingBoxes bounding_boxes
+sensor_msgs/CompressedImage detect_image
+
+---
+# Feedback definition
