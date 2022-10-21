@@ -32,7 +32,7 @@ class ObjectFeatureServer():
         self.cv_bridge = CvBridge()
         self.frame = 0
 
-        self.client = actionlib.SimpleActionClient("/all_detection_data", yolo_ros_msgs.AllDetectionDataAction)
+        self.client = actionlib.SimpleActionClient("/yolov5_ros/all_detection_data", yolo_ros_msgs.AllDetectionDataAction)
         self.client.wait_for_server()
 
         rospy.loginfo("[Service spco_data/object] Ready")
