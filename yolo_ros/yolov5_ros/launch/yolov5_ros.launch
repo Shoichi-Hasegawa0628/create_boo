@@ -49,7 +49,7 @@
         <param name="config" value="$(arg config)"/>
         <param name="device" value="$(arg device)"/>
 
-        <remap from="/input/image/compressed" to="/hsrb/head_rgbd_sensor/rgb/image_rect_color/compressed"/>
+        <remap from="/input/image/compressed" to="/camera/rgb/image_raw/compressed"/>
         <remap from="/input/activation" to="/yolov5_ros/input/activation"/>
         <remap from="/output/image/compressed" to="/yolov5_ros/output/image/compressed"/>
         <remap from="/output/bounding_boxes" to="/yolov5_ros/output/bounding_boxes"/>
