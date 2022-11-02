@@ -22,7 +22,7 @@ https://drive.google.com/drive/folders/1cUSi4-5djDkkXrMH0t5H_NhwRFuho1gr?usp=sha
 `python main.py`
 
 ## Files
- - `README.md`: Read me file (This file)
+ - `README.md`: Read me file
 
  - `main.py`: main program.
 
